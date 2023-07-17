@@ -19,3 +19,15 @@ packages
             - OBS: se o arquivo estiver em uma pasta dentro de outra pasta deve-se importar as pastas até que chegue a package do arquivo.
         para importar todos os arquivos de um package de uma vez só, basta utilizar o asterísco (*)
         ex: import nomePackage.packageSecundario.*;
+
+visibilidade dos atributos
+        define se o atributo é público ou privado
+        atributos públicos são visíveis em todo o código
+        atributos privados só são visíveis na classe que estão
+
+        além dos públicos e privados, também existem os atributos protegidos e padrões
+
+        públicos - public; privados - private; protegidos - protected; padrões - default
+
+        atributos protegidos, são visiveis na classe e no package
+        atributos default, são viíveis na classe e no package
