@@ -31,3 +31,9 @@ visibilidade dos atributos
 
         atributos protegidos, são visiveis na classe e no package
         atributos default, são viíveis na classe e no package
+
+getters e setters
+        métodos getters (get) são usados para "pegar" os valores dos atributos
+        métodos setters (set) são usados para setar, dar um novo valor aos atributos
+
+        ex: getAllData(); - setNome();
