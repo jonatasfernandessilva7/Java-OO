@@ -1,0 +1,11 @@
+o que são objetos?
+ - tudo pode ser um objeto, mas alguns são objetos abstratos. Objetos abstratos são objetos que não se pode tocar
+ - um objeto é algo que pode ser: sentido e descrito através de suas características. Podendo ter estados e comportamentos
+
+ ex: Smartphone -> tamanhoTela, qtdArmazenamento, cameraCelular, etc
+
+o que são classes?
+ - classes são moldes para criar objetos
+ - as classes tem atributos e métodos
+
+    atributos são as características do objeto e os métodos são as ações que o objeto irá executar
