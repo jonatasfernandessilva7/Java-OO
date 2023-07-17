@@ -9,3 +9,13 @@ o que são classes?
  - as classes tem atributos e métodos
 
     atributos são as características do objeto e os métodos são as ações que o objeto irá executar
+
+packages
+    -packages são as pastas onde ficam os arquivos
+    -cada package corresponde a uma categoria de classes
+
+        para usar arquivos de um package em outro arquivo que esteja fora desse package utiliza-se o import
+        ex: import nomePasta.nomeArquivo;
+            - OBS: se o arquivo estiver em uma pasta dentro de outra pasta deve-se importar as pastas até que chegue a package do arquivo.
+        para importar todos os arquivos de um package de uma vez só, basta utilizar o asterísco (*)
+        ex: import nomePackage.packageSecundario.*;
