@@ -37,3 +37,7 @@ getters e setters
         métodos setters (set) são usados para setar, dar um novo valor aos atributos
 
         ex: getAllData(); - setNome();
+
+construtores
+        o nome da classe construtora deve sempre ser o mesmo da classe mãe
+        não tem retorno
