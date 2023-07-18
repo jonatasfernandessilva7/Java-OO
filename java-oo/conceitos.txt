@@ -41,3 +41,6 @@ getters e setters
 construtores
         o nome da classe construtora deve sempre ser o mesmo da classe mãe
         não tem retorno
+
+encapsulamento -> código padronizado, herança -> classes que herdam informações de outras classes, polimorfismo -> mesmo objeto se comporta de forma diferente em classes diferentes e
+                  abstração -> usar o que informações importantes
