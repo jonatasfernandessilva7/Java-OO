@@ -45,4 +45,3 @@ construtores
 encapsulamento -> código padronizado, herança -> classes que herdam informações de outras classes, polimorfismo -> mesmo objeto se comporta de forma diferente em classes diferentes e
                   abstração -> usar o que informações importantes
                   
-teste eclipse
