@@ -45,3 +45,8 @@ construtores
 encapsulamento -> código padronizado, herança -> classes que herdam informações de outras classes, polimorfismo -> mesmo objeto se comporta de forma diferente em classes diferentes e
                   abstração -> usar o que informações importantes
                   
+interfaces - > são classes que padronizão métodos para outras classes
+
+a diferença entre o uso de interfaces e de herança -> quando se usa herança o código se torna mais acoplado, mais dependende e a chance de ter que mudar algo em alguma outra
+classe filha é grande, enquanto nas interfaces, apenas se garante que uma classe que dependa dela tenha um determinado método, não sendo fortemente dependente
+porém, da pra usar os dois juntos
