@@ -50,3 +50,71 @@ interfaces - > são classes que padronizão métodos para outras classes
 a diferença entre o uso de interfaces e de herança -> quando se usa herança o código se torna mais acoplado, mais dependende e a chance de ter que mudar algo em alguma outra
 classe filha é grande, enquanto nas interfaces, apenas se garante que uma classe que dependa dela tenha um determinado método, não sendo fortemente dependente
 porém, da pra usar os dois juntos
+
+tratamento de exceções
+        serve para tratar possíveis erros que possam acontecer durante a execução de um código
+        palavras reservadas para o tratamento: try, catch, finally, throw, throws
+        o tratamento de exceções permite que o programa continue rodando como se nada tivesse acontecido
+        a pilha de execução é chamada de stack trace
+
+        ex try catch finally:
+            try{
+
+            //trecho de código que pode vir a lançar uma exceção
+            }catch(tipo_exceçao_1 e){
+            //ação a ser tomada
+            }catch(tipo_exceçao_2 e){
+            //ação a ser tomada
+            }catch(tipo_exceçao_n e){
+            //ação a ser tomada
+            }finally{
+            }
+
+        Try e catch
+
+        Um bloco catch captura e trata uma exceção
+        Começa com a palavra catch, seguido por um único parâmetro entre
+        parênteses e um bloco de código entre { e }
+        O parâmetro especifica o tipo da exceção a ser capturada
+        Pelo menos um bloco catch ou um bloco finally devem seguir
+        imediatamente um bloco try
+        O bloco cujo objeto parâmetro seja do mesmo tipo ao da exceção
+        lançada será executado
+
+
+        Finally
+
+        Se houver um bloco finally, Java garante que ele será executado
+
+        Independentemente de qualquer exceção ser ou não disparada no
+        bloco try correspondente
+
+        Também será executado se um bloco try for encerrado com uma
+        instrução return
+
+        Throw
+
+        Uma cláusula throws força o lançamento de uma exceção
+
+        Aparece entre a lista de parâmetros e o corpo do método
+
+        As exceções podem ser lançadas explicitamente dentro do próprio
+        método ou por outros métodos chamados dentro do primeiro
+
+
+        Throws
+
+        Uma cláusula throws especifica as exceções que um método lança
+
+        Aparece entre a lista de parâmetros e o corpo do método
+
+        As exceções podem ser lançadas explicitamente dentro do próprio
+        método ou por outros métodos chamados dentro do primeiro
+
+        Se sabemos que um método pode lançar exceções, devemos incluir o
+        código de tratamento de exceções adequado
+
+        O próprio método não tratará a exceção
+
+        O método está delegando o tratamento de exceção para quem o
+        chama
